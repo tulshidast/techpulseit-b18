@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="smartcheck"></include>
+		</run>
+	</groups>
+	<listeners>
+		<listener class-name="seleniumpractices.MyListner"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="differentpkg.C2" />
+			<class name="javapractices.Child1" />
+			<class name="seleniumpractices.DataDrivenTesting" />
+			<class name="seleniumpractices.TestNgPriority" />
+			<class name="javapractices.MyInter2" />
+			<class name="javapractices.CompileTimeExceptionExmp" />
+			<class name="javapractices.StaticU2" />
+			<class name="javapractices.ImplOfInterface" />
+			<class name="javapractices.RunException" />
+			<class name="javapractices.SuperUsage" />
+			<class name="seleniumpractices.TestNgAnnotations" />
+			<class name="seleniumpractices.VerifyOmayoHomePageDetails" />
+			<class name="javapractices.MyInterface2" />
+			<class name="javapractices.ImplOFInterfaceExample" />
+			<class name="javapractices.SuperUse" />
+			<class name="seleniumpractices.TestNgTestCase" />
+			<class name="javapractices.ChildOfSuperUsage" />
+			<class name="base.BaseTest" />
+			<class name="seleniumpractices.GroupsInTestNg" />
+			<class name="javapractices.TestCompileException" />
+			<class name="seleniumpractices.ParallelTesting" />
+			<class name="seleniumpractices.TakesScreenshotOnFailure" />
+			<class name="javapractices.StaticUse" />
+			<class name="javapractices.MyInterface" />
+			<class name="javapractices.MethodOverriding" />
+			<class name="seleniumpractices.HardAssertInTestNg" />
+			<class name="javapractices.MultipleInheritance" />
+			<class name="javapractices.C1" />
+			<class name="javapractices.C4" />
+			<class name="javapractices.C3" />
+			<class name="javapractices.InterfaceExample" />
+			<class name="javapractices.RuntimeExceptionExample" />
+			<class name="seleniumpractices.ParallelTesting2" />
+			<class name="javapractices.MyInter" />
+			<class name="tests.VerifyValidUserLogin" />
+			<class name="tests.VerifyFromMonthDropdownOptions" />
+			<class name="seleniumpractices.SoftAssertInTestNg" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
